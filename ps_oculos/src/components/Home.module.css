@@ -1,0 +1,39 @@
+.header {
+  height: 79px;
+  width: 100%;
+  background-color: rgb(19, 14, 14);
+  margin-bottom: 30px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.menu ul li {
+  margin: 0 10px;
+  padding: 10px;
+  color: aliceblue;
+  list-style-type: none;
+}
+
+.menu ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0 10px;
+  transition: 600ms;
+}
+
+.menu ul li a:hover{
+  color: rgb(5, 5, 5);
+  padding: 10px 30px;
+  background-color: aliceblue;
+  border-radius: 50px;
+  transition: 600ms;
+}
